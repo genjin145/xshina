@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  color: var(--color-font);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-dark);
+}
+
+button {
+  color: inherit;
+  font-family: inherit;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 14px 8px;
+  width: 100%;
+  max-width: 1000px;
+}

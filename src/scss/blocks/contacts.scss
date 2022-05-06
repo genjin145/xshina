@@ -1,0 +1,30 @@
+.contacts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+
+  &__map {
+    position: relative;
+    padding-top: 100%;
+  }
+
+  &__map-map {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+
+  @media (max-width: 1027px) {
+    grid-template-columns: 1fr;
+
+    &__list {
+      order: 1;
+    }
+
+    &__map {
+      padding-top: 56.25%;
+    }
+  }
+}
